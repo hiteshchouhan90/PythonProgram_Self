@@ -6,6 +6,10 @@ print("Let's Check if its a square matrix")
 
 
 def check_square_matrix(matrix: list):
+    """ This function takes matrix i.e. list of list as input and checks
+        if it is a square matrix
+        usage : check_square_matrix(actual_matrix)
+        """
     flag = False
     length_mat = len(matrix)
     for i in range(length_mat):
@@ -18,7 +22,7 @@ def check_square_matrix(matrix: list):
 
 
 if __name__ == "__main__":
-    if check_square_matrix(matrix) == True:
+    if check_square_matrix(matrix):
         transposed_1 = []
         size_mat = len(matrix)
         for i in range(size_mat):
