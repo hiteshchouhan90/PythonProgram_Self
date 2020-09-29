@@ -44,3 +44,7 @@ for i in range(4):
         lst.append(row[i])
     transposed.append(lst)
 print("Transposed matrix is {}".format(transposed))"""
+
+# How to get doc string for any function:
+    # function_name.__doc__
+print(check_square_matrix.__doc__)
